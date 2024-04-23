@@ -6,12 +6,13 @@ let attemptsList = [];
 let randomnum = Math.floor(Math.random() * (246 - 0)) + 0;
 let AttemptCordinates;
 let distance;
+contryimage = abr[randomnum].toLowerCase();
 console.log(abr[randomnum]);
 imgdiv.innerHTML =
     "<img src='svgs/" +
-    abr[randomnum].toLowerCase() +
+    contryimage +
     ".svg' alt='" +
-    abr[randomnum].toLowerCase() +
+    contryimage +
     "'>";
 
 function Calculatedistance(lat1, lon1, lat2, lon2, unit) {
@@ -86,8 +87,16 @@ function verify() {
     }
 }
 function win(attempts) {
-    console.log("você venceu em " + attempts + " tentativas!");
+    var attemptsdivelements = document.querySelectorAll("div.attempt.contry>div");
+
+    attemptsdivelements.forEach((self)=>{
+        if(self.innerText == contrynames[randomnum]){
+            self.style.color = "green";
+        }
+        
+    })
+    input.style.display= 'none'
 }
 function lose() {
-    console.log("PERDEU ");
+    alert("PERDEU ");
 }
