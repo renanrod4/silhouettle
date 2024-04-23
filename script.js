@@ -2,18 +2,16 @@ var imgdiv = document.querySelector("div.challenge");
 var attemptsdiv = document.querySelector("div.attempt.contry");
 var distancediv = document.querySelector("div.attempt.distance");
 var directiondiv = document.querySelector("div.attempt.direction");
+let won = false;
 let attemptsList = [];
 let randomnum = Math.floor(Math.random() * (246 - 0)) + 0;
 let AttemptCordinates;
 let distance;
+var attemptsdivelements;
 contryimage = abr[randomnum].toLowerCase();
 console.log(abr[randomnum]);
 imgdiv.innerHTML =
-    "<img src='svgs/" +
-    contryimage +
-    ".svg' alt='" +
-    contryimage +
-    "'>";
+    "<img src='svgs/" + contryimage + ".svg' alt='" + contryimage + "'>";
 
 function Calculatedistance(lat1, lon1, lat2, lon2, unit) {
     if (lat1 == lat2 && lon1 == lon2) {
@@ -46,8 +44,6 @@ function direction(latattempt, lngattempt, latanswer, lnganswer) {
     // Parei aqui
 }
 
-
-
 function verify() {
     if (attemptsdiv.childElementCount > 0) {
         attemptsList = [];
@@ -57,6 +53,14 @@ function verify() {
     }
     if (!attemptsList.includes(input.value)) {
         attemptsdiv.innerHTML += "<div>" + input.value + "</div>";
+        attemptsdivelements = document.querySelectorAll(
+            "div.attempt.contry>div"
+        );
+        attemptsdivelements.forEach((self) => {
+            if (self.innerText != contrynames[randomnum]) {
+                self.style.color = "#BF616A";
+            }
+        });
         getCountryCoordinates(input.value, function (error, coordinates) {
             if (error) {
                 console.error("Error:", error);
@@ -71,7 +75,6 @@ function verify() {
                     "K"
                 );
 
-                
                 distancediv.innerHTML +=
                     "<div>" + Math.floor(distance) + " Km</div>";
             }
@@ -87,16 +90,15 @@ function verify() {
     }
 }
 function win(attempts) {
-    var attemptsdivelements = document.querySelectorAll("div.attempt.contry>div");
+    attemptsdivelements = document.querySelectorAll("div.attempt.contry>div");
 
-    attemptsdivelements.forEach((self)=>{
-        if(self.innerText == contrynames[randomnum]){
-            self.style.color = "green";
+    attemptsdivelements.forEach((self) => {
+        if (self.innerText == contrynames[randomnum]) {
+            self.style.color = "#A3BE8C";
         }
-        
-    })
-    input.style.display= 'none'
+    });
+    input.style.display = "none";
 }
 function lose() {
-    alert("PERDEU ");
+    input.style.display = "none";
 }

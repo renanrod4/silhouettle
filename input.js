@@ -5,7 +5,11 @@ datalist.style.top = input.offsetTop + 50 + "px";
 
 input.addEventListener("click", () => {
     input.value = "";
-    datalist.classList.toggle("active");
+    if (!won){
+        datalist.classList.toggle("active");
+    }else{
+        datalist.classList.remove("active");
+    }
 });
 function clearstr(str) {
     str = str.toLowerCase();
@@ -18,6 +22,14 @@ function clearstr(str) {
 
     return str;
 }
+document.addEventListener("keydown",(a)=>{
+    if(!datalist.classList.contains("active")){
+        input.click();
+        input.focus();
+        input.autofocus = true
+    }
+    
+})
 input.addEventListener("keyup", (a) => {
     var filter, li, j, textvalue;
     filter = clearstr(input.value);
