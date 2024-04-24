@@ -5,16 +5,18 @@ datalist.style.top = input.offsetTop + 50 + "px";
 
 input.addEventListener("click", () => {
     input.value = "";
-    if (!won){
-        datalist.classList.toggle("active");
-    }else{
+    if (won || gameover){
+
         datalist.classList.remove("active");
+        datalist.style.display = "none!important";
+    }else{
+        datalist.classList.toggle("active");
     }
 });
 function clearstr(str) {
     str = str.toLowerCase();
 
-    str = str.replace("á", "a").replace("â", "a");
+    str = str.replace("á", "a").replace("â", "a").replace("ã","a");
     str = str.replace("é", "e").replace("ê", "e");
     str = str.replace("í", "i").replace("î", "i");
     str = str.replace("ó", "o").replace("ô", "o");

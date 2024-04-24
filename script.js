@@ -3,11 +3,13 @@ var attemptsdiv = document.querySelector("div.attempt.contry");
 var distancediv = document.querySelector("div.attempt.distance");
 var directiondiv = document.querySelector("div.attempt.direction");
 let won = false;
+let gameover = false;
 let attemptsList = [];
 let randomnum = Math.floor(Math.random() * (246 - 0)) + 0;
 let AttemptCordinates;
 let distance;
 var attemptsdivelements;
+let answerDiv = document.querySelector("div#answer")
 contryimage = abr[randomnum].toLowerCase();
 console.log(abr[randomnum]);
 imgdiv.innerHTML =
@@ -106,14 +108,19 @@ function verify() {
     }
 
     if (input.value == contrynames[randomnum]) {
-        win(attemptsList.length + 1);
+        if(!won){
+            win(attemptsList.length + 1);
+        }
     } else {
         if (attemptsList.length > 5 - 1) {
-            lose();
+            if(!gameover){
+                lose();
+            }
         }
     }
 }
 function win(attempts) {
+    won = true
     attemptsdivelements = document.querySelectorAll("div.attempt.contry>div");
 
     attemptsdivelements.forEach((self) => {
@@ -124,5 +131,15 @@ function win(attempts) {
     input.style.display = "none";
 }
 function lose() {
+    gameover = true
     input.style.display = "none";
+    datalist.style.display = "none!important";
+    answerDiv.style.display = "flex";
+    answerDiv.innerHTML = "<p>"+contrynames[randomnum]+"</p>";
+    fadeoff(answerDiv)
+}
+function fadeoff(element){
+    setTimeout(() => {
+        element.style.display = "none";
+    }, 5000);
 }

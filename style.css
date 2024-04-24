@@ -24,6 +24,7 @@ h1 {
   padding-top: 40px;
   font-size: 70px;
   font-family: cousine;
+  user-select: none;
 }
 header {
   height: 120px;
@@ -35,7 +36,8 @@ header {
 img {
   width: auto;
   height: 250px;
-  filter: invert(13%) sepia(100%) saturate(5275%) hue-rotate(239deg) brightness(72%) contrast(111%);
+  filter: invert(65%) sepia(11%) saturate(935%) hue-rotate(169deg) brightness(94%) contrast(89%);
+  user-select: none;
 }
 input[type="text"] {
   border: none;
@@ -54,6 +56,10 @@ input[type="text"] {
 }
 input::placeholder{
   color: #D8DEE9;
+}
+input{
+  user-select: none;
+
 }
 input[type="button"]{
   border: none;
@@ -96,6 +102,8 @@ li{
   font-size: 16px;
   padding: 7px;
   font-family: cousine;
+  user-select: none;
+
 }
 li:hover{
   background-color: #5E81AC;
@@ -125,7 +133,7 @@ form{
   justify-content: space-around;
   flex-direction:row ;
   margin: 10px;
-  align-items: center;
+  
   color: #ECEFF4;
   font-size: 16px;
   font-family: cousine;
@@ -134,7 +142,7 @@ form{
 .attempt{
   margin: 10px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 
 }
 .attempt>div{
@@ -165,11 +173,31 @@ div.attempt.direction>div{
   transition: transform 0.3s ease;
   flex-direction: column;
 }
+div#answer{
+  position: absolute;
+  width: 30%;
+  height: 8%;
+  z-index: 99;
+  background-color: #292E39;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: none;
+}
+
+div#answer>p{
+  font-size: 3vw;
+  color: #ECEFF4;
+  font-family: cousine;
+  text-transform: capitalize;
+}
 
 
 @media screen and (max-height: 750px){
   div.attempts{
     height: 50px;
+    width: 90%;
     overflow: scroll;
   }
   ul{
