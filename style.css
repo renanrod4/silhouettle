@@ -161,6 +161,12 @@ form{
     width: 250px;
   }
 }
+div.attempt.direction>div{
+  transition: transform 0.3s ease;
+  flex-direction: column;
+}
+
+
 @media screen and (max-height: 750px){
   div.attempts{
     height: 50px;

@@ -40,8 +40,17 @@ function Calculatedistance(lat1, lon1, lat2, lon2, unit) {
     }
 }
 
-function direction(latattempt, lngattempt, latanswer, lnganswer) {
-    // Parei aqui
+function calcularAngulo(x, y) {
+    return Math.atan2(y, x) * (180 / Math.PI);
+}
+
+function rotacionarSeta(x, y) {
+    let angulo = calcularAngulo(x, y);
+    let div = document.querySelectorAll(".arrow");
+    //        i.style.transform = "rotate(" + angulo + "deg)";
+    div[div.length-1].style.transform = "rotate(" + angulo + "deg)";
+
+
 }
 
 function verify() {
@@ -51,6 +60,7 @@ function verify() {
             attemptsList.push(i.innerText);
         });
     }
+
     if (!attemptsList.includes(input.value)) {
         attemptsdiv.innerHTML += "<div>" + input.value + "</div>";
         attemptsdivelements = document.querySelectorAll(
@@ -61,7 +71,12 @@ function verify() {
                 self.style.color = "#BF616A";
             }
         });
-        getCountryCoordinates(input.value, function (error, coordinates) {
+        let AnswerContry = input.value;
+        if (clearstr(input.value) == clearstr("Geórgia")) {
+            AnswerContry = "Sakartvelo";
+        }
+
+        getCountryCoordinates(AnswerContry, function (error, coordinates) {
             if (error) {
                 console.error("Error:", error);
             } else {
@@ -78,6 +93,15 @@ function verify() {
                 distancediv.innerHTML +=
                     "<div>" + Math.floor(distance) + " Km</div>";
             }
+
+            let deltaLat = answerCordinates.lat - AttemptCordinates.lat;
+            let deltaLng = answerCordinates.lng - AttemptCordinates.lng;
+            if(deltaLat != 0 && deltaLng!=0){
+                directiondiv.innerHTML += "<div class='arrow'>⬆️</div>";
+            }else{
+                directiondiv.innerHTML += "<div class='arrow'>🎉</div>";
+            }
+            rotacionarSeta(deltaLat, deltaLng);
         });
     }
 
