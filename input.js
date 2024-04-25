@@ -1,6 +1,4 @@
-let input = document.querySelector("input[type='text']");
-let datalist = document.querySelector("ul");
-let dataelement = document.querySelectorAll("li");
+
 datalist.style.top = input.offsetTop + 50 + "px";
 
 input.addEventListener("click", () => {
