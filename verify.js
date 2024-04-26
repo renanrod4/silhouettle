@@ -68,6 +68,7 @@ function verify() {
                 }
             });
 
+
             rotacionarSeta(deltaLat, deltaLng);
         });
         console.log(AttemptBoxContent);

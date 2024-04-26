@@ -5,22 +5,41 @@ var directiondiv = document.querySelector("div.attempt.direction");
 let input = document.querySelector("input[type='text']");
 let datalist = document.querySelector("ul");
 let dataelement = document.querySelectorAll("li");
-let attemptsDiv = document.querySelector("div.attempts")
+let attemptsDiv = document.querySelector("div.attempts");
 let answerDiv = document.querySelector("div#answer");
-let attemptsContriesDiv = document.querySelectorAll("div.attempt.contry")
+let attemptsContriesDiv = document.querySelectorAll("div.attempt.contry");
 
 let won = false;
 let gameover = false;
 let attemptsList = [];
-let randomnum = Math.floor(Math.random() * (246 - 0)) + 0;
+let randomnum = Math.floor(Math.random() * (contrynames.length-1 - 0)) + 0;
 
 let AttemptCordinates;
 let distance;
 var attemptsdivelements;
-
+let countriesWithoutIslands;
 contryimage = abr[randomnum].toLowerCase();
+if (islands.includes(contrynames[randomnum])) {
 
-console.log(abr[randomnum]);
+    let reducechance = Math.floor(Math.random() * (8 - 0)) + 0;
+    console.log(reducechance);
+    if (reducechance != 1) {
+        countriesWithoutIslands = contrynames.filter(function (el) {
+            return !islands.includes(el);
+            
+        });
+        let runloop = true;
+        while(runloop){
+            randomnum = Math.floor(Math.random() * (contrynames.length-1 - 0)) + 0;
+            contryimage = abr[randomnum].toLowerCase();
+            if(!islands.includes(contrynames[randomnum])){
+                runloop = false;
+            }
+        }
+    }
+} else {
+}
+console.log(contrynames[randomnum]+"  "+abr[randomnum]);
 
 imgdiv.innerHTML =
     "<img src='svgs/" + contryimage + ".svg' alt='" + contryimage + "'>";
@@ -66,7 +85,6 @@ function rotacionarSeta(x, y) {
 function win(attempts) {
     won = true;
     attemptsContriesDiv = document.querySelectorAll("div.attempt.contry>div");
-
 
     input.style.display = "none";
 }
