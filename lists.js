@@ -247,7 +247,7 @@ var abr = [
     "ZM",
     "ZW",
 ];
-let contrynames = [
+let countrynames = [
     "Afeganistão",
     "África do Sul",
     "Ilhas Alanda",

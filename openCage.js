@@ -38,7 +38,7 @@ function getCountryCoordinates(countryName, callback) {
 }
 
 
-getCountryCoordinates(contrynames[randomnum], function(error, coordinates) {
+getCountryCoordinates(countrynames[randomnum], function(error, coordinates) {
     if (error) {
         console.error("Error:", error);
     } else {

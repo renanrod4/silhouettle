@@ -1,8 +1,29 @@
-function verify() {
-    if(contrynames.includes(input.value)){
-        let AttemptBoxContent = [];
 
-        if (!attemptsList.includes(input.value)) {
+function verify() {
+    if(attemptsList.length == 0){
+        submited()
+    }else{
+        
+        let countryAlreadySubmitted = '';
+        attemptsList.forEach((i)=>{
+            if(clearstr(i) == clearstr(input.value)){
+                countryAlreadySubmitted +="a"
+            }else{
+                countryAlreadySubmitted+="e"
+                
+            }
+           
+        })
+        if(!countryAlreadySubmitted.includes("a")){
+
+            submited()
+        }
+    }
+
+}
+function submited(){
+    if(countrynames.includes(input.value)){
+        let AttemptBoxContent = [];
             AttemptBoxContent[0] =
                 "<div class='attemptbox'><div class='attempt contry'><div>" +
                 input.value +
@@ -58,14 +79,15 @@ function verify() {
                         attemptsList.push(i.innerText);
                     });
                 }
+                
                 attemptsContriesDiv.forEach((self) => {
-                    if (self.innerText == contrynames[randomnum]) {
-                        self.style.color = "#A3BE8C";
+                    if (self.innerText != countrynames[randomnum]) {
+                        self.style.color = "#BF616A";
                     }
                 });
                 attemptsContriesDiv.forEach((self) => {
-                    if (self.innerText != contrynames[randomnum]) {
-                        self.style.color = "#BF616A";
+                    if (clearstr(self.innerText) == clearstr(countrynames[randomnum])) {
+                        self.style.color = "#A3BE8C";
                     }
                 });
     
@@ -73,9 +95,9 @@ function verify() {
                 rotacionarSeta(deltaLat, deltaLng);
             });
             console.log(AttemptBoxContent);
-        }
+        
     
-        if (input.value == contrynames[randomnum]) {
+        if (input.value == countrynames[randomnum]) {
             if (!won) {
                 win(attemptsList.length + 1);
     

@@ -12,37 +12,37 @@ let attemptsContriesDiv = document.querySelectorAll("div.attempt.contry");
 let won = false;
 let gameover = false;
 let attemptsList = [];
-let randomnum = Math.floor(Math.random() * (contrynames.length-1 - 0)) + 0;
+let randomnum = Math.floor(Math.random() * (countrynames.length-1 - 0)) + 0;
 
 let AttemptCordinates;
 let distance;
 var attemptsdivelements;
 let countriesWithoutIslands;
-contryimage = abr[randomnum].toLowerCase();
-if (islands.includes(contrynames[randomnum])) {
+countryimage = abr[randomnum].toLowerCase();
+if (islands.includes(countrynames[randomnum])) {
 
     let reducechance = Math.floor(Math.random() * (8 - 0)) + 0;
     console.log(reducechance);
     if (reducechance != 1) {
-        countriesWithoutIslands = contrynames.filter(function (el) {
+        countriesWithoutIslands = countrynames.filter(function (el) {
             return !islands.includes(el);
             
         });
         let runloop = true;
         while(runloop){
-            randomnum = Math.floor(Math.random() * (contrynames.length-1 - 0)) + 0;
-            contryimage = abr[randomnum].toLowerCase();
-            if(!islands.includes(contrynames[randomnum])){
+            randomnum = Math.floor(Math.random() * (countrynames.length-1 - 0)) + 0;
+            countryimage = abr[randomnum].toLowerCase();
+            if(!islands.includes(countrynames[randomnum])){
                 runloop = false;
             }
         }
     }
 } else {
 }
-console.log(contrynames[randomnum]+"  "+abr[randomnum]);
+console.log(countrynames[randomnum]+"  "+abr[randomnum]);
 
 imgdiv.innerHTML =
-    "<img src='svgs/" + contryimage + ".svg' alt='" + contryimage + "'>";
+    "<img src='svgs/" + countryimage + ".svg' alt='" + countryimage + "'>";
 
 function Calculatedistance(lat1, lon1, lat2, lon2, unit) {
     if (lat1 == lat2 && lon1 == lon2) {
@@ -93,7 +93,7 @@ function lose() {
     input.style.display = "none";
     datalist.style.display = "none!important";
     answerDiv.style.display = "flex";
-    answerDiv.innerHTML = "<p>" + contrynames[randomnum] + "</p>";
+    answerDiv.innerHTML = "<p>" + countrynames[randomnum] + "</p>";
     fadeoff(answerDiv);
 }
 function fadeoff(element) {
