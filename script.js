@@ -3,6 +3,7 @@ var imgdiv = document.querySelector("div.challenge");
 var distancediv = document.querySelector("div.attempt.distance");
 var directiondiv = document.querySelector("div.attempt.direction");
 let input = document.querySelector("input[type='text']");
+let submitbutton = document.querySelector("input[type='button']");
 let datalist = document.querySelector("ul");
 datalist.innerHTML=`<li>Afeganistão</li>
 <li>África do Sul</li>
@@ -259,7 +260,7 @@ let attemptsContriesDiv = document.querySelectorAll("div.attempt.contry");
 let won = false;
 let gameover = false;
 let attemptsList = [];
-let randomnum = Math.floor(Math.random() * (countrynames.length-1 - 0)) + 0;
+let randomnum = Math.floor(Math.random() * (countrynames.length - 0)) + 0;
 
 let AttemptCordinates;
 let distance;
@@ -277,7 +278,7 @@ if (islands.includes(countrynames[randomnum])) {
         });
         let runloop = true;
         while(runloop){
-            randomnum = Math.floor(Math.random() * (countrynames.length-1 - 0)) + 0;
+            randomnum = Math.floor(Math.random() * (countrynames.length - 0)) + 0;
             countryimage = abr[randomnum].toLowerCase();
             if(!islands.includes(countrynames[randomnum])){
                 runloop = false;
@@ -333,16 +334,23 @@ function win(attempts) {
     won = true;
     attemptsContriesDiv = document.querySelectorAll("div.attempt.contry>div");
 
-    input.style.display = "none";
+    prepareNextRound();
 }
 function lose() {
     gameover = true;
-    input.style.display = "none";
-    datalist.style.display = "none!important";
-    answerDiv.style.display = "flex";
     answerDiv.innerHTML = "<p>" + countrynames[randomnum] + "</p>";
+    answerDiv.style.display = "flex";
     fadeoff(answerDiv);
+    prepareNextRound();
+
 }
+function prepareNextRound(){
+    
+    input.style.display = "none";
+    submitbutton.value = "Próximo"
+}
+
+
 function fadeoff(element) {
     setTimeout(() => {
         element.style.display = "none";

@@ -79,6 +79,9 @@ input[type="button"] {
     border-radius: 10px;
     position: relative;
     background-color: #5e81ac;
+    color: #292e39;
+    appearance: none;
+    -webkit-appearance: none;
 }
 main {
     display: flex;
@@ -166,6 +169,7 @@ div#answer {
     text-align: center;
     align-items: center;
     display: none;
+    border-radius: 5px;
 }
 
 div#answer > p {
@@ -191,6 +195,7 @@ div#answer > p {
     ul {
         width: 200px;
     }
+
 }
 
 @media screen and (max-height: 750px) {
@@ -210,10 +215,12 @@ div#answer > p {
     input[type="text"] {
         width: 67%;
     }
+
 }
 @media screen and (max-height: 550px) {
     img {
         height: 150px;
         margin: 10px;
     }
+
 }
