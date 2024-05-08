@@ -19,6 +19,7 @@ function clearstr(str) {
     str = str.replace("í", "i").replace("î", "i").replace("ĩ","i").replace("ì","i").replace("ï","i");
     str = str.replace("ó", "o").replace("ô", "o").replace("õ","o").replace("ò","o").replace("ö","o");
     str = str.replace("ú", "u").replace("û", "u").replace("ũ","u").replace("ù","u").replace("ü","u");
+    str = str.replace("ç","c").replace(" ", "-");
     str = str.replace(/[^a-zA-Z ]/g, "")
 
     return str;

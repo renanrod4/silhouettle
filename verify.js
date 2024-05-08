@@ -1,4 +1,4 @@
-let previous_countries= [];
+let previous_countries = [];
 function verify() {
     if (submitbutton.value == "Enviar") {
         if (attemptsList.length == 0) {
@@ -17,32 +17,47 @@ function verify() {
             }
         }
     } else if (submitbutton.value == "Próximo") {
-        previous_countries.push(countrynames[randomnum])
-        console.log(previous_countries)
+        previous_countries.push(countrynames[randomnum]);
+
+        //console.log(previous_countries);
+        attemptsList = [];
         gameover = false;
         won = false;
         randomnum = Math.floor(Math.random() * (countrynames.length - 0)) + 0;
-        if(previous_countries.includes(countrynames[randomnum])){
-            while (previous_countries.includes(countrynames[randomnum])){
-                console.log("Caiu um repetido: "+countrynames[randomnum]+", mas foi substituido")
-                randomnum = Math.floor(Math.random() * (countrynames.length - 0)) + 0;
+        if (previous_countries.includes(countrynames[randomnum])) {
+            let runloop = true;
+            while (runloop) {
+                if (previous_countries.includes(countrynames[randomnum])) {
+                    console.log(
+                        "Caiu um repetido: " +
+                            countrynames[randomnum] +
+                            ", mas foi substituido"
+                    );
+                    randomnum =
+                        Math.floor(Math.random() * (countrynames.length - 0)) +
+                        0;
+                } else {
+                    if(!previous_countries.includes(countrynames[randomnum])){
+                        runloop = false;
+                    }
+                }
             }
         }
 
         if (islands.includes(countrynames[randomnum])) {
-
             let reducechance = Math.floor(Math.random() * (8 - 0)) + 0;
             console.log(reducechance);
             if (reducechance != 1) {
                 countriesWithoutIslands = countrynames.filter(function (el) {
                     return !islands.includes(el);
-                    
                 });
                 let runloop = true;
-                while(runloop){
-                    randomnum = Math.floor(Math.random() * (countrynames.length - 0)) + 0;
+                while (runloop) {
+                    randomnum =
+                        Math.floor(Math.random() * (countrynames.length - 0)) +
+                        0;
                     countryimage = abr[randomnum].toLowerCase();
-                    if(!islands.includes(countrynames[randomnum])){
+                    if (!islands.includes(countrynames[randomnum])) {
                         runloop = false;
                     }
                 }
@@ -66,7 +81,7 @@ function verify() {
                 }
             }
         );
-        console.log(countrynames[randomnum]+"  "+abr[randomnum]);
+        console.log(countrynames[randomnum] + "  " + abr[randomnum]);
         attemptsDiv.innerHTML = "";
         input.value = "";
         input.style.display = "";
@@ -148,7 +163,6 @@ function submited() {
 
             rotacionarSeta(deltaLat, deltaLng);
         });
-
 
         if (input.value == countrynames[randomnum]) {
             if (!won) {

@@ -337,7 +337,7 @@ let countrynames = [
     "Gibraltar",
     "Granada",
     "Grécia",
-    "Gronelândia",
+    "Groenlândia",
     "Guadalupe",
     "Guam",
     "Guatemala",
