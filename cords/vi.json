@@ -1,0 +1,139 @@
+{
+    "documentation": "https://opencagedata.com/api",
+    "licenses": [
+    {
+    "name": "see attribution guide",
+    "url": "https://opencagedata.com/credits"
+    }
+    ],
+    "rate": {
+    "limit": 2500,
+    "remaining": 2192,
+    "reset": 1715299200
+    },
+    "results": [
+    {
+    "annotations": {
+    "DMS": {
+    "lat": "17° 47' 21.07320'' N",
+    "lng": "64° 42' 29.00664'' W"
+    },
+    "MGRS": "20QLE1894467686",
+    "Maidenhead": "FK77ps59aj",
+    "Mercator": {
+    "x": -7203268,
+    "y": 1999840.413
+    },
+    "OSM": {
+    "edit_url": "https://www.openstreetmap.org/edit?relation=286898#map=17/17.78919/-64.70806",
+    "note_url": "https://www.openstreetmap.org/note/new#map=17/17.78919/-64.70806&layers=N",
+    "url": "https://www.openstreetmap.org/?mlat=17.78919&mlon=-64.70806#map=17/17.78919/-64.70806"
+    },
+    "UN_M49": {
+    "regions": {
+    "AMERICAS": "019",
+    "NORTHERN_AMERICA": "021",
+    "US": "840",
+    "WORLD": "001"
+    },
+    "statistical_groupings": [
+    "MEDC"
+    ]
+    },
+    "callingcode": 1,
+    "currency": {
+    "alternate_symbols": [
+    "US$"
+    ],
+    "decimal_mark": ".",
+    "disambiguate_symbol": "US$",
+    "html_entity": "$",
+    "iso_code": "USD",
+    "iso_numeric": "840",
+    "name": "United States Dollar",
+    "smallest_denomination": 1,
+    "subunit": "Cent",
+    "subunit_to_unit": 100,
+    "symbol": "$",
+    "symbol_first": 1,
+    "thousands_separator": ","
+    },
+    "flag": "🇺🇸",
+    "geohash": "de1vpw3j8bz3c7fs36uy",
+    "qibla": 65.05,
+    "roadinfo": {
+    "drive_on": "right",
+    "speed_in": "mph"
+    },
+    "sun": {
+    "rise": {
+    "apparent": 1715248140,
+    "astronomical": 1715243520,
+    "civil": 1715246760,
+    "nautical": 1715245140
+    },
+    "set": {
+    "apparent": 1715294460,
+    "astronomical": 1715299140,
+    "civil": 1715295840,
+    "nautical": 1715297520
+    }
+    },
+    "timezone": {
+    "name": "America/St_Thomas",
+    "now_in_dst": 0,
+    "offset_sec": -14400,
+    "offset_string": "-0400",
+    "short_name": "AST"
+    },
+    "what3words": {
+    "words": "freckle.impatiently.tiller"
+    },
+    "wikidata": "Q11703"
+    },
+    "bounds": {
+    "northeast": {
+    "lat": 18.464984,
+    "lng": -64.512674
+    },
+    "southwest": {
+    "lat": 17.623468,
+    "lng": -65.1541175
+    }
+    },
+    "components": {
+    "ISO_3166-1_alpha-2": "US",
+    "ISO_3166-1_alpha-3": "USA",
+    "ISO_3166-2": [
+    "US-VI"
+    ],
+    "_category": "place",
+    "_type": "state",
+    "continent": "North America",
+    "country": "Estados Unidos da América",
+    "country_code": "us",
+    "state": "Ilhas Virgens dos Estados Unidos"
+    },
+    "confidence": 1,
+    "formatted": "Ilhas Virgens dos Estados Unidos, Estados Unidos da América",
+    "geometry": {
+    "lat": 17.789187,
+    "lng": -64.7080574
+    }
+    }
+    ],
+    "status": {
+    "code": 200,
+    "message": "OK"
+    },
+    "stay_informed": {
+    "blog": "https://blog.opencagedata.com",
+    "mastodon": "https://en.osm.town/@opencage"
+    },
+    "thanks": "For using an OpenCage API",
+    "timestamp": {
+    "created_http": "Thu, 09 May 2024 16:11:37 GMT",
+    "created_unix": 1715271097
+    },
+    "total_results": 1
+    }

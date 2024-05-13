@@ -1,0 +1,1121 @@
+{
+    "documentation": "https://opencagedata.com/api",
+    "licenses": [
+        {
+            "name": "see attribution guide",
+            "url": "https://opencagedata.com/credits"
+        }
+    ],
+    "rate": {
+        "limit": 2500,
+        "remaining": 2394,
+        "reset": 1715385600
+    },
+    "results": [
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "15° 57' 55.63872'' S",
+                    "lng": "5° 42' 9.27216'' W"
+                },
+                "MGRS": "30LTH1070533008",
+                "Maidenhead": "IH74da58qg",
+                "Mercator": {
+                    "x": -634807.816,
+                    "y": -1788976.316
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?relation=4868269#map=17/-15.96546/-5.70258",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/-15.96546/-5.70258&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-15.96546&mlon=-5.70258#map=17/-15.96546/-5.70258"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AFRICA": "002",
+                        "SH": "654",
+                        "SUB-SAHARAN_AFRICA": "202",
+                        "WESTERN_AFRICA": "011",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": ["LEDC", "xs"]
+                },
+                "callingcode": 290,
+                "currency": {
+                    "alternate_symbols": [],
+                    "decimal_mark": ".",
+                    "disambiguate_symbol": "SHP",
+                    "format": "%n %u",
+                    "html_entity": "&#x00A3;",
+                    "iso_code": "SHP",
+                    "iso_numeric": "654",
+                    "name": "Saint Helenian Pound",
+                    "smallest_denomination": 1,
+                    "subunit": "Penny",
+                    "subunit_to_unit": 100,
+                    "symbol": "£",
+                    "symbol_first": 0,
+                    "thousands_separator": ","
+                },
+                "flag": "🇸🇭",
+                "geohash": "7v5vnjxd2r7qm5v8yhnp",
+                "qibla": 51.39,
+                "roadinfo": {
+                    "drive_on": "left",
+                    "speed_in": "mph"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1715323080,
+                        "astronomical": 1715318580,
+                        "civil": 1715321700,
+                        "nautical": 1715320140
+                    },
+                    "set": {
+                        "apparent": 1715364060,
+                        "astronomical": 1715368500,
+                        "civil": 1715365380,
+                        "nautical": 1715366940
+                    }
+                },
+                "timezone": {
+                    "name": "Atlantic/St_Helena",
+                    "now_in_dst": 0,
+                    "offset_sec": 0,
+                    "offset_string": "+0000",
+                    "short_name": "GMT"
+                },
+                "what3words": {
+                    "words": "cautiously.discretely.ambiguously"
+                },
+                "wikidata": "Q34497"
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -15.9038563,
+                    "lng": -5.6342268
+                },
+                "southwest": {
+                    "lat": -16.0274459,
+                    "lng": -5.7899604
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "SH",
+                "ISO_3166-1_alpha-3": "SHN",
+                "ISO_3166-2": ["SH-HL"],
+                "_category": "natural/water",
+                "_normalized_city": "Santa Helena",
+                "_type": "island",
+                "continent": "Africa",
+                "country": "Santa Helena, Ascensão e Tristão da Cunha",
+                "country_code": "sh",
+                "island": "Santa Helena",
+                "postcode": "STHL 1ZZ",
+                "state": "Santa Helena"
+            },
+            "confidence": 5,
+            "formatted": "STHL 1ZZ, Santa Helena, United Kingdom",
+            "geometry": {
+                "lat": -15.9654552,
+                "lng": -5.7025756
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "15° 58' 8.65848'' S",
+                    "lng": "5° 42' 46.62000'' W"
+                },
+                "MGRS": "30LTH0959932593",
+                "Maidenhead": "IH74da47kk",
+                "Mercator": {
+                    "x": -635962.685,
+                    "y": -1789392.483
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?relation=155987#map=17/-15.96907/-5.71295",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/-15.96907/-5.71295&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-15.96907&mlon=-5.71295#map=17/-15.96907/-5.71295"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AFRICA": "002",
+                        "SH": "654",
+                        "SUB-SAHARAN_AFRICA": "202",
+                        "WESTERN_AFRICA": "011",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": ["LEDC", "xs"]
+                },
+                "callingcode": 290,
+                "currency": {
+                    "alternate_symbols": [],
+                    "decimal_mark": ".",
+                    "disambiguate_symbol": "SHP",
+                    "format": "%n %u",
+                    "html_entity": "&#x00A3;",
+                    "iso_code": "SHP",
+                    "iso_numeric": "654",
+                    "name": "Saint Helenian Pound",
+                    "smallest_denomination": 1,
+                    "subunit": "Penny",
+                    "subunit_to_unit": 100,
+                    "symbol": "£",
+                    "symbol_first": 0,
+                    "thousands_separator": ","
+                },
+                "flag": "🇸🇭",
+                "geohash": "7v5vjuzvqt78pq8px2p9",
+                "qibla": 51.39,
+                "roadinfo": {
+                    "drive_on": "left",
+                    "speed_in": "mph"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1715323080,
+                        "astronomical": 1715318580,
+                        "civil": 1715321700,
+                        "nautical": 1715320140
+                    },
+                    "set": {
+                        "apparent": 1715364060,
+                        "astronomical": 1715368500,
+                        "civil": 1715365380,
+                        "nautical": 1715366940
+                    }
+                },
+                "timezone": {
+                    "name": "Atlantic/St_Helena",
+                    "now_in_dst": 0,
+                    "offset_sec": 0,
+                    "offset_string": "+0000",
+                    "short_name": "GMT"
+                },
+                "what3words": {
+                    "words": "sift.inconclusive.eloquence"
+                },
+                "wikidata": "Q34497"
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -15.704,
+                    "lng": -5.4234153
+                },
+                "southwest": {
+                    "lat": -16.23,
+                    "lng": -5.9973424
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "SH",
+                "ISO_3166-1_alpha-3": "SHN",
+                "ISO_3166-2": ["SH-HL"],
+                "_category": "place",
+                "_type": "state",
+                "continent": "Africa",
+                "country": "Santa Helena, Ascensão e Tristão da Cunha",
+                "country_code": "sh",
+                "state": "Santa Helena"
+            },
+            "confidence": 1,
+            "formatted": "Santa Helena, United Kingdom",
+            "geometry": {
+                "lat": -15.9690718,
+                "lng": -5.71295
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "24° 51' 33.02460'' S",
+                    "lng": "54° 19' 58.37268'' W"
+                },
+                "MGRS": "21JYN6950748007",
+                "Maidenhead": "GG25ud03bt",
+                "Mercator": {
+                    "x": -6048308.68,
+                    "y": -2840500.417
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?relation=297691#map=17/-24.85917/-54.33288",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/-24.85917/-54.33288&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-24.85917&mlon=-54.33288#map=17/-24.85917/-54.33288"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "BR": "076",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": ["LEDC"]
+                },
+                "callingcode": 55,
+                "currency": {
+                    "decimal_mark": ",",
+                    "html_entity": "R$",
+                    "iso_code": "BRL",
+                    "iso_numeric": "986",
+                    "name": "Brazilian Real",
+                    "smallest_denomination": 5,
+                    "subunit": "Centavo",
+                    "subunit_to_unit": 100,
+                    "symbol": "R$",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "🇧🇷",
+                "geohash": "6g96eds0b45mcuzz4t5h",
+                "qibla": 71.93,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1715335500,
+                        "astronomical": 1715330820,
+                        "civil": 1715334060,
+                        "nautical": 1715332440
+                    },
+                    "set": {
+                        "apparent": 1715374920,
+                        "astronomical": 1715379660,
+                        "civil": 1715376360,
+                        "nautical": 1715377980
+                    }
+                },
+                "timezone": {
+                    "name": "America/Sao_Paulo",
+                    "now_in_dst": 0,
+                    "offset_sec": -10800,
+                    "offset_string": "-0300",
+                    "short_name": "BRT"
+                },
+                "what3words": {
+                    "words": "error.thrones.bittersweet"
+                },
+                "wikidata": "Q2355851"
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -24.6931724,
+                    "lng": -54.1455525
+                },
+                "southwest": {
+                    "lat": -25.0415151,
+                    "lng": -54.457249
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "BR",
+                "ISO_3166-1_alpha-3": "BRA",
+                "ISO_3166-2": ["BR-PR"],
+                "_category": "place",
+                "_normalized_city": "Santa Helena",
+                "_type": "municipality",
+                "continent": "South America",
+                "country": "Brasil",
+                "country_code": "br",
+                "municipality": "Santa Helena",
+                "postcode": "85892-000",
+                "region": "Região Sul",
+                "state": "Paraná",
+                "state_code": "PR",
+                "state_district": "Região Geográfica Intermediária de Cascavel"
+            },
+            "confidence": 3,
+            "formatted": "Região Geográfica Intermediária de Cascavel - PR, 85892-000, Brasil",
+            "geometry": {
+                "lat": -24.8591735,
+                "lng": -54.3328813
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "26° 56' 19.85136'' S",
+                    "lng": "53° 37' 9.93864'' W"
+                },
+                "MGRS": "22JBR3991817643",
+                "Maidenhead": "GG33eb54qq",
+                "Mercator": {
+                    "x": -5968887.355,
+                    "y": -3096481.051
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?relation=296556#map=17/-26.93885/-53.61943",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/-26.93885/-53.61943&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-26.93885&mlon=-53.61943#map=17/-26.93885/-53.61943"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "BR": "076",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": ["LEDC"]
+                },
+                "callingcode": 55,
+                "currency": {
+                    "decimal_mark": ",",
+                    "html_entity": "R$",
+                    "iso_code": "BRL",
+                    "iso_numeric": "986",
+                    "name": "Brazilian Real",
+                    "smallest_denomination": 5,
+                    "subunit": "Centavo",
+                    "subunit_to_unit": 100,
+                    "symbol": "R$",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "🇧🇷",
+                "geohash": "6g1yezgtbfc4ejsg21wm",
+                "qibla": 72.09,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1715335500,
+                        "astronomical": 1715330760,
+                        "civil": 1715334060,
+                        "nautical": 1715332380
+                    },
+                    "set": {
+                        "apparent": 1715374560,
+                        "astronomical": 1715379360,
+                        "civil": 1715376000,
+                        "nautical": 1715377680
+                    }
+                },
+                "timezone": {
+                    "name": "America/Sao_Paulo",
+                    "now_in_dst": 0,
+                    "offset_sec": -10800,
+                    "offset_string": "-0300",
+                    "short_name": "BRT"
+                },
+                "what3words": {
+                    "words": "posterity.recovered.breaded"
+                },
+                "wikidata": "Q2020284"
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -26.884,
+                    "lng": -53.5342597
+                },
+                "southwest": {
+                    "lat": -26.9547202,
+                    "lng": -53.6969723
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "BR",
+                "ISO_3166-1_alpha-3": "BRA",
+                "ISO_3166-2": ["BR-SC"],
+                "_category": "place",
+                "_normalized_city": "Santa Helena",
+                "_type": "municipality",
+                "continent": "South America",
+                "country": "Brasil",
+                "country_code": "br",
+                "municipality": "Santa Helena",
+                "postcode": "89915-000",
+                "region": "Região Geográfica Intermediária de Chapecó",
+                "state": "Santa Catarina",
+                "state_code": "SC"
+            },
+            "confidence": 6,
+            "formatted": "SC, 89915-000, Brasil",
+            "geometry": {
+                "lat": -26.9388476,
+                "lng": -53.6194274
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "6° 43' 11.60724'' S",
+                    "lng": "38° 38' 23.71632'' W"
+                },
+                "MGRS": "24MWT3979457201",
+                "Maidenhead": "HI03qg37ff",
+                "Mercator": {
+                    "x": -4301376.352,
+                    "y": -744779.301
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?relation=301309#map=17/-6.71989/-38.63992",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/-6.71989/-38.63992&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-6.71989&mlon=-38.63992#map=17/-6.71989/-38.63992"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "BR": "076",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": ["LEDC"]
+                },
+                "callingcode": 55,
+                "currency": {
+                    "decimal_mark": ",",
+                    "html_entity": "R$",
+                    "iso_code": "BRL",
+                    "iso_numeric": "986",
+                    "name": "Brazilian Real",
+                    "smallest_denomination": 5,
+                    "subunit": "Centavo",
+                    "subunit_to_unit": 100,
+                    "symbol": "R$",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "🇧🇷",
+                "geohash": "7nu9b8xmb9d3rk5dx67y",
+                "qibla": 67.14,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1715330220,
+                        "astronomical": 1715325900,
+                        "civil": 1715328900,
+                        "nautical": 1715327400
+                    },
+                    "set": {
+                        "apparent": 1715372700,
+                        "astronomical": 1715377020,
+                        "civil": 1715374020,
+                        "nautical": 1715375520
+                    }
+                },
+                "timezone": {
+                    "name": "America/Fortaleza",
+                    "now_in_dst": 0,
+                    "offset_sec": -10800,
+                    "offset_string": "-0300",
+                    "short_name": "-03"
+                },
+                "what3words": {
+                    "words": "persuasive.golfers.huge"
+                },
+                "wikidata": "Q2329779"
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -6.6268694,
+                    "lng": -38.4842827
+                },
+                "southwest": {
+                    "lat": -6.7979166,
+                    "lng": -38.6737403
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "BR",
+                "ISO_3166-1_alpha-3": "BRA",
+                "ISO_3166-2": ["BR-PB"],
+                "_category": "place",
+                "_normalized_city": "Santa Helena",
+                "_type": "municipality",
+                "continent": "South America",
+                "country": "Brasil",
+                "country_code": "br",
+                "county": "Região Metropolitana de Cajazeiras",
+                "municipality": "Santa Helena",
+                "region": "Região Nordeste",
+                "state": "Paraíba",
+                "state_code": "PB",
+                "state_district": "Região Geográfica Intermediária de Sousa-Cajazeiras"
+            },
+            "confidence": 5,
+            "formatted": "Santa Helena, Região Metropolitana de Cajazeiras, Brasil",
+            "geometry": {
+                "lat": -6.7198909,
+                "lng": -38.6399212
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "2° 14' 3.79320'' S",
+                    "lng": "45° 18' 0.82044'' W"
+                },
+                "MGRS": "23MMT6661753028",
+                "Maidenhead": "GI77is33xr",
+                "Mercator": {
+                    "x": -5042798.303,
+                    "y": -247129.21
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?relation=332960#map=17/-2.23439/-45.30023",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/-2.23439/-45.30023&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-2.23439&mlon=-45.30023#map=17/-2.23439/-45.30023"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "BR": "076",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": ["LEDC"]
+                },
+                "callingcode": 55,
+                "currency": {
+                    "decimal_mark": ",",
+                    "html_entity": "R$",
+                    "iso_code": "BRL",
+                    "iso_numeric": "986",
+                    "name": "Brazilian Real",
+                    "smallest_denomination": 5,
+                    "subunit": "Centavo",
+                    "subunit_to_unit": 100,
+                    "symbol": "R$",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "🇧🇷",
+                "geohash": "6zxg31jru0jf77bt9yy4",
+                "qibla": 68.36,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1715331480,
+                        "astronomical": 1715327160,
+                        "civil": 1715330160,
+                        "nautical": 1715328660
+                    },
+                    "set": {
+                        "apparent": 1715374620,
+                        "astronomical": 1715378940,
+                        "civil": 1715375940,
+                        "nautical": 1715377440
+                    }
+                },
+                "timezone": {
+                    "name": "America/Fortaleza",
+                    "now_in_dst": 0,
+                    "offset_sec": -10800,
+                    "offset_string": "-0300",
+                    "short_name": "-03"
+                },
+                "what3words": {
+                    "words": "diminished.musicianship.ogle"
+                },
+                "wikidata": "Q2103762"
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -2.0367321,
+                    "lng": -44.9671182
+                },
+                "southwest": {
+                    "lat": -2.9007472,
+                    "lng": -45.6430724
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "BR",
+                "ISO_3166-1_alpha-3": "BRA",
+                "ISO_3166-2": ["BR-MA"],
+                "_category": "place",
+                "_normalized_city": "Santa Helena",
+                "_type": "municipality",
+                "continent": "South America",
+                "country": "Brasil",
+                "country_code": "br",
+                "municipality": "Santa Helena",
+                "postcode": "65208-000",
+                "region": "Região Nordeste",
+                "state": "Maranhão",
+                "state_code": "MA",
+                "state_district": "Região Geográfica Intermediária de São Luís"
+            },
+            "confidence": 1,
+            "formatted": "Região Geográfica Intermediária de São Luís - MA, 65208-000, Brasil",
+            "geometry": {
+                "lat": -2.234387,
+                "lng": -45.3002279
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "4° 44' 50.75808'' N",
+                    "lng": "73° 55' 2.62956'' W"
+                },
+                "MGRS": "18NXL2006324839",
+                "Maidenhead": "FJ34ar99vj",
+                "Mercator": {
+                    "x": -8228447.008,
+                    "y": 525553.692
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?relation=8368987#map=17/4.74743/-73.91740",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/4.74743/-73.91740&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=4.74743&mlon=-73.91740#map=17/4.74743/-73.91740"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "CO": "170",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": ["LEDC"]
+                },
+                "callingcode": 57,
+                "currency": {
+                    "alternate_symbols": ["COL$"],
+                    "decimal_mark": ",",
+                    "disambiguate_symbol": "COL$",
+                    "html_entity": "&#36;",
+                    "iso_code": "COP",
+                    "iso_numeric": "170",
+                    "name": "Colombian Peso",
+                    "smallest_denomination": 20,
+                    "subunit": "Centavo",
+                    "subunit_to_unit": 100,
+                    "symbol": "$",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "🇨🇴",
+                "geohash": "d2g7jbnzzc9gsrc4k24b",
+                "qibla": 65.13,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1715337780,
+                        "astronomical": 1715333460,
+                        "civil": 1715336520,
+                        "nautical": 1715334960
+                    },
+                    "set": {
+                        "apparent": 1715382060,
+                        "astronomical": 1715300040,
+                        "civil": 1715383380,
+                        "nautical": 1715384880
+                    }
+                },
+                "timezone": {
+                    "name": "America/Bogota",
+                    "now_in_dst": 0,
+                    "offset_sec": -18000,
+                    "offset_string": "-0500",
+                    "short_name": "-05"
+                },
+                "what3words": {
+                    "words": "deserved.shock.mime"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": 4.7770778,
+                    "lng": -73.8701391
+                },
+                "southwest": {
+                    "lat": 4.7179115,
+                    "lng": -73.9481485
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "CO",
+                "ISO_3166-1_alpha-3": "COL",
+                "ISO_3166-2": ["CO-CUN"],
+                "_category": "place",
+                "_normalized_city": "Santa Helena",
+                "_type": "city",
+                "city": "Santa Helena",
+                "continent": "South America",
+                "country": "Colômbia",
+                "country_code": "co",
+                "county": "La Calera",
+                "municipality": "Zona 5 La Calera",
+                "region": "Cundinamarca",
+                "state_district": "Guavio"
+            },
+            "confidence": 7,
+            "formatted": "Santa Helena, La Calera, Colômbia",
+            "geometry": {
+                "lat": 4.7474328,
+                "lng": -73.9173971
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "5° 34' 42.72816'' N",
+                    "lng": "72° 54' 32.83092'' W"
+                },
+                "MGRS": "18NYM3161817026",
+                "Maidenhead": "FJ35nn08vu",
+                "Mercator": {
+                    "x": -8116206.079,
+                    "y": 617832.493
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?node=8713438723#map=17/5.57854/-72.90912",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/5.57854/-72.90912&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=5.57854&mlon=-72.90912#map=17/5.57854/-72.90912"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "CO": "170",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": ["LEDC"]
+                },
+                "callingcode": 57,
+                "currency": {
+                    "alternate_symbols": ["COL$"],
+                    "decimal_mark": ",",
+                    "disambiguate_symbol": "COL$",
+                    "html_entity": "&#36;",
+                    "iso_code": "COP",
+                    "iso_numeric": "170",
+                    "name": "Colombian Peso",
+                    "smallest_denomination": 20,
+                    "subunit": "Centavo",
+                    "subunit_to_unit": 100,
+                    "symbol": "$",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "🇨🇴",
+                "geohash": "d2upszt1q6kj09g707ux",
+                "qibla": 65.1,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1715337480,
+                        "astronomical": 1715333100,
+                        "civil": 1715336160,
+                        "nautical": 1715334660
+                    },
+                    "set": {
+                        "apparent": 1715381880,
+                        "astronomical": 1715299860,
+                        "civil": 1715383200,
+                        "nautical": 1715384700
+                    }
+                },
+                "timezone": {
+                    "name": "America/Bogota",
+                    "now_in_dst": 0,
+                    "offset_sec": -18000,
+                    "offset_string": "-0500",
+                    "short_name": "-05"
+                },
+                "what3words": {
+                    "words": "drifted.elitists.compromised"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": 5.8985356,
+                    "lng": -72.5891197
+                },
+                "southwest": {
+                    "lat": 5.2585356,
+                    "lng": -73.2291197
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "CO",
+                "ISO_3166-1_alpha-3": "COL",
+                "ISO_3166-2": ["CO-BOY"],
+                "_category": "natural/water",
+                "_normalized_city": "Santa Helena",
+                "_type": "island",
+                "continent": "South America",
+                "country": "Colômbia",
+                "country_code": "co",
+                "county": "Cuítiva",
+                "island": "Santa Helena",
+                "region": "RAP (Especial) Central",
+                "state": "Boyacá",
+                "state_code": "BOY",
+                "state_district": "Sugamuxi"
+            },
+            "confidence": 1,
+            "formatted": "Santa Helena, Cuítiva, Colômbia",
+            "geometry": {
+                "lat": 5.5785356,
+                "lng": -72.9091197
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "41° 0' 5.70924'' N",
+                    "lng": "7° 47' 42.97704'' W"
+                },
+                "MGRS": "29TPF0131839632",
+                "Maidenhead": "IN61ca40nj",
+                "Mercator": {
+                    "x": -867765.643,
+                    "y": 4984535.547
+                },
+                "NUTS": {
+                    "NUTS0": {
+                        "code": "PT"
+                    },
+                    "NUTS1": {
+                        "code": "PT1"
+                    },
+                    "NUTS2": {
+                        "code": "PT11"
+                    },
+                    "NUTS3": {
+                        "code": "PT11D"
+                    }
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?node=5584329654#map=17/41.00159/-7.79527",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/41.00159/-7.79527&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=41.00159&mlon=-7.79527#map=17/41.00159/-7.79527"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "EUROPE": "150",
+                        "PT": "620",
+                        "SOUTHERN_EUROPE": "039",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": ["MEDC"]
+                },
+                "callingcode": 351,
+                "currency": {
+                    "alternate_symbols": [],
+                    "decimal_mark": ",",
+                    "html_entity": "€",
+                    "iso_code": "EUR",
+                    "iso_numeric": "978",
+                    "name": "Euro",
+                    "smallest_denomination": 1,
+                    "subunit": "Cent",
+                    "subunit_to_unit": 100,
+                    "symbol": "€",
+                    "symbol_first": 0,
+                    "thousands_separator": "."
+                },
+                "flag": "🇵🇹",
+                "geohash": "ez63q85et186g6cebtte",
+                "qibla": 101.19,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1715318340,
+                        "astronomical": 1715311740,
+                        "civil": 1715316540,
+                        "nautical": 1715314260
+                    },
+                    "set": {
+                        "apparent": 1715369820,
+                        "astronomical": 1715376480,
+                        "civil": 1715371620,
+                        "nautical": 1715373900
+                    }
+                },
+                "timezone": {
+                    "name": "Europe/Lisbon",
+                    "now_in_dst": 1,
+                    "offset_sec": 3600,
+                    "offset_string": "+0100",
+                    "short_name": "WEST"
+                },
+                "what3words": {
+                    "words": "corporate.recharged.manufactured"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": 41.0016359,
+                    "lng": -7.7952214
+                },
+                "southwest": {
+                    "lat": 41.0015359,
+                    "lng": -7.7953214
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "PT",
+                "ISO_3166-1_alpha-3": "PRT",
+                "ISO_3166-2": ["PT-18"],
+                "_category": "natural/water",
+                "_normalized_city": "Tarouca",
+                "_type": "peak",
+                "city": "Tarouca",
+                "continent": "Europe",
+                "country": "Portugal",
+                "country_code": "pt",
+                "county": "Viseu",
+                "county_code": "VIS",
+                "peak": "Santa Helena",
+                "political_union": "European Union",
+                "postcode": "3610-017"
+            },
+            "confidence": 9,
+            "formatted": "Santa Helena, 3610-017 Tarouca, Portugal",
+            "geometry": {
+                "lat": 41.0015859,
+                "lng": -7.7952714
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "6° 42' 44.85096'' S",
+                    "lng": "38° 35' 12.93288'' W"
+                },
+                "MGRS": "24MWT4565258018",
+                "Maidenhead": "HI03qg99na",
+                "Mercator": {
+                    "x": -4295476.934,
+                    "y": -743951.725
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?relation=6221996#map=17/-6.71246/-38.58693",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/-6.71246/-38.58693&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-6.71246&mlon=-38.58693#map=17/-6.71246/-38.58693"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AMERICAS": "019",
+                        "BR": "076",
+                        "LATIN_AMERICA": "419",
+                        "SOUTH_AMERICA": "005",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": ["LEDC"]
+                },
+                "callingcode": 55,
+                "currency": {
+                    "decimal_mark": ",",
+                    "html_entity": "R$",
+                    "iso_code": "BRL",
+                    "iso_numeric": "986",
+                    "name": "Brazilian Real",
+                    "smallest_denomination": 5,
+                    "subunit": "Centavo",
+                    "subunit_to_unit": 100,
+                    "symbol": "R$",
+                    "symbol_first": 1,
+                    "thousands_separator": "."
+                },
+                "flag": "🇧🇷",
+                "geohash": "7nu9cfjc57n8y2b0d8vs",
+                "qibla": 67.13,
+                "roadinfo": {
+                    "drive_on": "right",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1715330220,
+                        "astronomical": 1715325900,
+                        "civil": 1715328900,
+                        "nautical": 1715327400
+                    },
+                    "set": {
+                        "apparent": 1715372700,
+                        "astronomical": 1715377020,
+                        "civil": 1715373960,
+                        "nautical": 1715375520
+                    }
+                },
+                "timezone": {
+                    "name": "America/Fortaleza",
+                    "now_in_dst": 0,
+                    "offset_sec": -10800,
+                    "offset_string": "-0300",
+                    "short_name": "-03"
+                },
+                "what3words": {
+                    "words": "connects.dislodging.gaslights"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -6.6268694,
+                    "lng": -38.4842827
+                },
+                "southwest": {
+                    "lat": -6.7979166,
+                    "lng": -38.6737403
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "BR",
+                "ISO_3166-1_alpha-3": "BRA",
+                "ISO_3166-2": ["BR-PB"],
+                "_category": "place",
+                "_normalized_city": "Santa Helena",
+                "_type": "village",
+                "city_district": "Santa Helena",
+                "continent": "South America",
+                "country": "Brasil",
+                "country_code": "br",
+                "county": "Região Metropolitana de Cajazeiras",
+                "municipality": "Região Geográfica Imediata de Cajazeiras",
+                "region": "Região Nordeste",
+                "state": "Paraíba",
+                "state_code": "PB",
+                "state_district": "Região Geográfica Intermediária de Sousa-Cajazeiras",
+                "village": "Santa Helena"
+            },
+            "confidence": 5,
+            "formatted": "Santa Helena, Região Metropolitana de Cajazeiras, Brasil",
+            "geometry": {
+                "lat": -6.7124586,
+                "lng": -38.5869258
+            }
+        }
+    ],
+    "status": {
+        "code": 200,
+        "message": "OK"
+    },
+    "stay_informed": {
+        "blog": "https://blog.opencagedata.com",
+        "mastodon": "https://en.osm.town/@opencage"
+    },
+    "thanks": "For using an OpenCage API",
+    "timestamp": {
+        "created_http": "Fri, 10 May 2024 15:28:23 GMT",
+        "created_unix": 1715354903
+    },
+    "total_results": 10
+}
