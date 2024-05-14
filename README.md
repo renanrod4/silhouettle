@@ -1,2 +1,2 @@
 # silhouettle
- Geography game inspired in worldle.teuteuf.fr
+ Geography game inspired in [worldle game](https://worldle.teuteuf.fr/)
