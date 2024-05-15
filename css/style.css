@@ -32,10 +32,11 @@ body {
 }
 h1 {
     color: #81a1c1;
-    padding-top: 40px;
+
     font-size: 70px;
     font-family: cousine;
     user-select: none;
+    width: 100%;
 }
 header {
     height: 120px;
@@ -44,9 +45,33 @@ header {
     width: 100%;
     position: sticky;
     top: 0;
-    z-index: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
 }
-img {
+.bmc img,.bmc,a{
+    width: 50px;
+    height: auto;
+    margin: 5px;
+    min-width: 30px;
+   
+}
+.bmc img{
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.bmc{
+    position: relative;
+    width: 3%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;    
+}
+.challenge img {
     width: auto;
     height: 250px;
     filter: invert(65%) sepia(11%) saturate(935%) hue-rotate(169deg)

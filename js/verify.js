@@ -100,9 +100,7 @@ function submited() {
         );
 
         let AttemptCountry = input.value;
-        if (clearstr(input.value) == clearstr("Geórgia")) {
-            AttemptCountry = "Sakartvelo";
-        }
+
 
         getCountryCoordinates(AttemptCountry, function (error, coordinates) {
             if (error) {
