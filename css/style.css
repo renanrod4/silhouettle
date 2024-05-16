@@ -18,7 +18,6 @@ html {
 * {
     -ms-overflow-style: none;
     scrollbar-width: none;
-    scrollbar-color: red;
 }
 
 body {
@@ -50,26 +49,77 @@ header {
     align-items: center;
     z-index: 1000;
 }
-.bmc img,.bmc,a{
-    width: 50px;
-    height: auto;
-    margin: 5px;
-    min-width: 30px;
-   
+.menu {
+	position: relative;
+	display:  inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 25px;
 }
-.bmc img{
-    width: 100%;
-    height: auto;
-    border-radius: 3px;
-    overflow: hidden;
+.menu span {
+	margin: 0 auto;
+	position: relative;
+	top: 12px;
 }
-.bmc{
+.menu span:before, .menu span:after {
+	position: absolute;
+	content: '';
+}
+.menu span, .menu span:before, .menu span:after {
+	width: 35px;
+	height: 5px;
+    border-radius: 6px;
+	background-color: #d8dee9;
+	display: block;
+}
+.menu span:before {
+	margin-top: -12px;
+}
+.menu span:after {
+	margin-top: 12px;
+}
+
+.menubtn span {
+	-webkit-transition-duration: 0s; transition-duration: 0s;
+	-webkit-transition-delay: 0.2s; transition-delay: 0.2s;
+}
+.menubtn.open span {
+	background-color: rgba(0,0,0,0.0);
+	-webkit-transition-delay: 0.2s; transition-delay: 0.2s;
+}
+.menubtn span:before {
+	-webkit-transition-property: margin, -webkit-transform; transition-property: margin, transform;
+	-webkit-transition-duration: 0.2s; transition-duration: 0.2s;
+	-webkit-transition-delay: 0.2s, 0s; transition-delay: 0.2s, 0s;
+}
+.menubtn.open span:before {
+	margin-top: 0;
+	-webkit-transform: rotate(45deg); transform: rotate(45deg);
+	-webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
+}
+.menubtn span:after {
+	-webkit-transition-property: margin, -webkit-transform; transition-property: margin, transform;
+	-webkit-transition-duration: 0.2s; transition-duration: 0.2s;
+	-webkit-transition-delay: 0.2s, 0s; transition-delay: 0.2s, 0s;
+}
+.menubtn.open span:after {
+	margin-top: 0;
+	-webkit-transform: rotate(-45deg); transform: rotate(-45deg);
+	-webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
+}
+
+header>div:first-child{
+    padding-left: 80px;
+}
+.menubtn{
     position: relative;
     width: 3%;
     height: 100%;
     display: flex;
-    justify-content: end;
-    align-items: center;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
 }
 .challenge img {
     width: auto;
@@ -246,6 +296,9 @@ footer a{
     }
     #copyright > p > a > img {
         height: 15px !important;
+    }
+    header>div:first-child{
+        display: none;
     }
 }
 

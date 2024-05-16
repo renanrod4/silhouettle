@@ -10,6 +10,7 @@ let dataelement = document.querySelectorAll("li");
 let attemptsDiv = document.querySelector("div.attempts");
 let answerDiv = document.querySelector("div#answer");
 let attemptsContriesDiv = document.querySelectorAll("div.attempt.contry");
+let menubtn = document.querySelector("div.menubtn")
 
 let won = false;
 let gameover = false;
@@ -45,6 +46,11 @@ console.log(countrynames[randomnum]+"  "+abr[randomnum]);
 
 imgdiv.innerHTML =
     "<img src='svgs/" + countryimage + ".svg' alt='" + countryimage + "'>";
+
+menubtn.addEventListener("click",()=>{
+    menubtn.classList.toggle("open")
+
+})
 
 function Calculatedistance(lat1, lon1, lat2, lon2, unit) {
     if (lat1 == lat2 && lon1 == lon2) {
