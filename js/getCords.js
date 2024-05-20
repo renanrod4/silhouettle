@@ -8,7 +8,7 @@ function getCountryCoordinates(countryName, callback) {
         }
     });
 
-    var jsonUrl = document.location.href+"cords/" + clearstr(abrCountryName) + ".json";
+    var jsonUrl = document.location.href.replace("#","")+"cords/" + clearstr(abrCountryName) + ".json";
     var request = new XMLHttpRequest();
     request.open("GET", jsonUrl, true);
 
