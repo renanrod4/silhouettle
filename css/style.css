@@ -175,8 +175,6 @@ input::placeholder {
     color: #d8dee9;
 }
 input {
-    -webkit-user-select: none; 
-    -ms-user-select: none; 
     user-select: none; 
 }
 input[type="button"] {
